@@ -1,5 +1,5 @@
 # baekjoon_workbook
-## Python을 활용한 baekjoon 문제집 풀이
+## Python을 활용한 baekjoon 문제집 풀이(소스 코드)
 
 ### Algorithm
 ```
