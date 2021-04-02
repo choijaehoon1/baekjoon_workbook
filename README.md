@@ -13,6 +13,8 @@
 [Algorithm_11724_bfs] - 08.연결 요소의 개수.py
 [Algorithm_1697__bfs] - 09.숨바꼭질.py
 [Algorithm_4963__bfs] - 10.섬의 개수.py
+[Algorithm_14502_bfs] - 11.연구소.py
+[Algorithm_2468__bfs] - 12.안전 영역.py
 ```
 
 > 업데이트 중
