@@ -15,6 +15,8 @@
 [Algorithm_4963__bfs] - 10.섬의 개수.py
 [Algorithm_14502_bfs] - 11.연구소.py
 [Algorithm_2468__bfs] - 12.안전 영역.py
+[Algorithm_2583__bfs] - 13.영역 구하기.py
+[Algorithm_1987__dfs] - 14.알파벳.py
 ```
 
 > 업데이트 중
