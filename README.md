@@ -20,6 +20,9 @@
 [Algorithm_10026_bfs] - 15.적록색약.py
 [Algorithm_2644__dfs] - 16.촌수계산.py
 [Algorithm_2644__bfs] - 17.촌수계산.py
+[Algorithm_7562__bfs] - 18.나이트의 이동.py
+[Algorithm_11725_dfs] - 19.트리의 부모 찾기.py
+[Algorithm_11725_bfs] - 20.트리의 부모 찾기.py
 ```
 
 > 업데이트 중
