@@ -23,6 +23,7 @@
 [Algorithm_7562__bfs] - 18.나이트의 이동.py
 [Algorithm_11725_dfs] - 19.트리의 부모 찾기.py
 [Algorithm_11725_bfs] - 20.트리의 부모 찾기.py
+[Algorithm_2206__bfs] - 21.벽 부수고 이동하기.py
 ```
 
 > 업데이트 중
