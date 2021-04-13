@@ -29,6 +29,8 @@
 [Algorithm_1937__dfs] - 24.욕심쟁이 판다.py
 [Algorithm_16236_bfs] - 25.아기 상어.py
 [Algorithm_9466__dfs] - 26.팀 프로젝트.py
+[Algorithm_1707__bfs] - 27.이분 그래프.py
+[Algorithm_1968__bfs] - 28.트리의 지름.py
 ```
 
 > 업데이트 중
