@@ -31,6 +31,7 @@
 [Algorithm_9466__dfs] - 26.팀 프로젝트.py
 [Algorithm_1707__bfs] - 27.이분 그래프.py
 [Algorithm_1968__bfs] - 28.트리의 지름.py
+[Algorithm_3055__bfs] - 29.탈출.py
 ```
 
 > 업데이트 중
