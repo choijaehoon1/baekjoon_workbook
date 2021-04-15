@@ -32,6 +32,9 @@
 [Algorithm_1707__bfs] - 27.이분 그래프.py
 [Algorithm_1968__bfs] - 28.트리의 지름.py
 [Algorithm_3055__bfs] - 29.탈출.py
+[Algorithm_1167__bfs] - 30.트리의 지름.py
+[Algorithm_1389__bfs] - 31.케빈 베이컨의 6단계 법칙.py
+[Algorithm_1068__dfs] - 32.트리.py
 ```
 
 > 업데이트 중
