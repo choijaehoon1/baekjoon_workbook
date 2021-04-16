@@ -35,6 +35,8 @@
 [Algorithm_1167__bfs] - 30.트리의 지름.py
 [Algorithm_1389__bfs] - 31.케빈 베이컨의 6단계 법칙.py
 [Algorithm_1068__dfs] - 32.트리.py
+[Algorithm_16234_bfs] - 33.인구이동.py
+[Algorithm_1325__bfs] - 34.효율적인 해킹.py
 ```
 
 > 업데이트 중
