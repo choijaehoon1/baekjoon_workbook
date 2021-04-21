@@ -37,6 +37,7 @@
 [Algorithm_1068__dfs] - 32.트리.py
 [Algorithm_16234_bfs] - 33.인구이동.py
 [Algorithm_1325__bfs] - 34.효율적인 해킹.py
+[Algorithm_1713_impl] - 35.후보 추천하기.py
 ```
 
 > 업데이트 중
