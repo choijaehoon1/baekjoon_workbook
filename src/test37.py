@@ -1,34 +1,47 @@
-from itertools import combinations
 import sys
+sys.setrecursionlimit(10**6)
 
-N,M = map(int,sys.stdin.readline().rstrip().split())
-board = [[]]
-chicken = []
-home = []
-for i in range(1,N+1):
-    board.append([0]+list(map(int,sys.stdin.readline().rstrip().split())))
-    for j in range(1,N+1):
-        if board[i][j] == 2:
-            chicken.append([i,j])
-            board[i][j] = 0
-        if board[i][j] == 1:     
-            home.append([i,j])      
+def dfs(x,y):
+    global answer
+    global cycle
 
-answer = int(1e9)
-for combi in combinations(chicken,M):
-    for cx,cy in combi:
-        board[cx][cy] = 2
+    if not (0<=x<N and 0<=y<M) or board[x][y] == 'H':
+        return 0
 
-    total_dist = 0
-    for hx,hy in home:
-        dist = int(1e9)
-        for cx,cy in combi:
-            tmp = abs(hx-cx) + abs(hy-cy)
-            dist = min(dist,tmp)
-        total_dist += dist
+    if visit[x][y] == 1:
+        cycle = True
+        return -1       
+    
+    if dp[x][y] != -1:
+        return dp[x][y]
+    
+    visit[x][y] = 1
+    num = int(board[x][y])
+    for k in range(4):
+        nx = x + num*dx[k]
+        ny = y + num*dy[k]
 
-    answer = min(answer,total_dist)
+        dp[x][y] = max(dp[x][y], dfs(nx,ny)+1)
+        if cycle == True:
+            return -1
+    visit[x][y] = 0     
+    return dp[x][y]       
 
-    for cx,cy in combi:
-        board[cx][cy] = 0
-print(answer)        
+cycle = False
+answer = 0
+N,M = map(int, sys.stdin.readline().rstrip().split())
+board = []
+for i in range(N):
+    board.append(list(sys.stdin.readline().rstrip()))
+
+visit = [[0]*M for _ in range(N)]
+dp = [[-1]*M for _ in range(N)]
+dx = [-1,1,0,0]
+dy = [0,0,-1,1]
+
+dfs(0,0)
+if cycle == True:
+    print(-1)
+else:
+    print(max(max(dp)))
+
