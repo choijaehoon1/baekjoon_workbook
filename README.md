@@ -40,6 +40,8 @@
 [Algorithm_1713__impl] - 35.후보 추천하기.py
 [Algorithm_15686_impl] - 36.치킨 배달.py
 [Algorithm_1103__impl] - 37.게임.py
+[Algorithm_1759__impl] - 38.암호 만들기.py
+[Algorithm_3055__impl] - 39.탈출.py
 ```
 
 > 업데이트 중
