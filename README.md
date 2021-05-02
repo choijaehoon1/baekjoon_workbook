@@ -45,6 +45,7 @@
 [Algorithm_1339__impl] - 40.단어 수학.py
 [Algorithm_1062___dfs] - 41.가르침.py
 [Algorithm_5014___bfs] - 42.스타트링크.py
+[Algorithm_2533__impl] - 43.사회망 서비스(SNS).py
 ```
 
 > 업데이트 중
