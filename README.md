@@ -47,6 +47,7 @@
 [Algorithm_5014___bfs] - 42.스타트링크.py
 [Algorithm_2533__impl] - 43.사회망 서비스(SNS).py
 [Algorithm_17295_impl] - 44.오큰수.py
+[Algorithm_2493__impl] - 45.탑.py
 ```
 
 > 업데이트 중
