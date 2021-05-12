@@ -52,6 +52,7 @@
 [Algorithm_2589___bfs] - 47.보물섬.py
 [Algorithm_2638___bfs] - 48.치즈.py
 [Algorithm_9465____dp] - 49.스티커.py
+[Algorithm_2146___bfs] - 50.다리 만들기.py
 ```
 
 > 업데이트 중
