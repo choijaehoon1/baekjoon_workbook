@@ -54,6 +54,7 @@
 [Algorithm_9465____dp] - 49.스티커.py
 [Algorithm_2146___bfs] - 50.다리 만들기.py
 [Algorithm_2458___dfs] - 51.키 순서.py
+[Algorithm_9019___bfs] - 52.DSLR.py
 ```
 
 > 업데이트 중
