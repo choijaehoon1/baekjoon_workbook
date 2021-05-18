@@ -56,6 +56,7 @@
 [Algorithm_2458___dfs] - 51.키 순서.py
 [Algorithm_9019___bfs] - 52.DSLR.py
 [Algorithm_17471_cbfs] - 53.게리멘더링.py
+[Algorithm_13549__bfs] - 54.숨바꼭질 3.py
 ```
 
 > 업데이트 중
