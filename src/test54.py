@@ -1,36 +1,32 @@
 from collections import deque
 import sys
 
-def dfs(node,depth):
-    global flag
-    if depth >= 4:
-        flag = True
-        return
-    
-    visit[node] = 1
-    for i in board[node]:
-        if visit[i] == 0:
-            visit[i] = 1
-            dfs(i,depth+1)
-            visit[i] = 0 
+def find():
+    q = deque()
+    q.append(N)
+    dist[N] = 0
+    visit[N] = 1
 
+    while q:
+        x = q.popleft()
+        if 2*x < max_value and visit[2*x] == 0:
+            visit[2*x] = 1
+            dist[2*x] = dist[x]
+            q.appendleft(2*x)
 
-N,M = map(int,sys.stdin.readline().rstrip().split())
-board = [[] for _ in range(N)]
-for i in range(M):
-    a,b = map(int,sys.stdin.readline().rstrip().split())
-    board[a].append(b)
-    board[b].append(a)
+        if x+1 < max_value and visit[x+1] == 0:
+            visit[x+1] = 1
+            dist[x+1] = dist[x] + 1
+            q.append(x+1)        
 
-flag = False
-for i in range(N):
-    visit = [0 for _ in range(N)]
-    dfs(i,0)
-    if flag == True:
-        break
+        if 0 <= x-1 and visit[x-1] == 0:
+            visit[x-1] = 1
+            dist[x-1] = dist[x] + 1
+            q.append(x-1)
 
-if flag:
-    print(1)
-else:
-    print(0)    
-
+N,K = map(int,sys.stdin.readline().rstrip().split())
+visit = [0 for _ in range(1000001)]
+dist = [-1 for _ in range(1000001)]
+max_value = 1000001
+find()
+print(dist[K])
