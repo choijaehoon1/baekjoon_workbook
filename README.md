@@ -58,6 +58,7 @@
 [Algorithm_17471_cbfs] - 53.게리멘더링.py
 [Algorithm_13549__bfs] - 54.숨바꼭질 3.py
 [Algorithm_13023__dfs] - 55.ABCDE.py
+[Algorithm__2668__dfs] - 56.숫자고르기.py
 ```
 
 > 업데이트 중
