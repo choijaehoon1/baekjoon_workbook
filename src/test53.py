@@ -20,12 +20,12 @@ def bfs(group):
         while q:
             x = q.popleft()
             value += person[x]
-            for i in board[x]:
-                for j in range(N):
-                    if board[x][j] == 1 and j in group and tmp[j] == 0:
-                        tmp[j] = 1
-                        cnt += 1
-                        q.append(j)
+            for i in range(N):
+                if board[x][i] == 1 and i in group and tmp[i] == 0:
+                    tmp[i] = 1
+                    cnt += 1
+                    q.append(i)
+            
         return cnt,value                                
     
 N = int(sys.stdin.readline().rstrip())
