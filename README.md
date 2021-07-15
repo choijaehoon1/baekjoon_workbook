@@ -61,6 +61,7 @@
 [Algorithm__2668__dfs] - 56.숫자고르기.py
 [Algorithm_10828_impl] - 57.스택.py
 [Algorithm__1766___pq] - 58.문제집.py
+[Algorithm__1158____q] - 59.요세푸스 문제.py
 ```
 
 > 업데이트 중
