@@ -59,7 +59,7 @@
 [Algorithm_13549___bfs] - 54.숨바꼭질 3.py
 [Algorithm_13023___dfs] - 55.ABCDE.py
 [Algorithm__2668___dfs] - 56.숫자고르기.py
-[Algorithm_10828_imple] - 57.스택.py
+[Algorithm_10866_imple] - 57.덱.py
 [Algorithm__1766____pq] - 58.문제집.py
 [Algorithm__1158_queue] - 59.요세푸스 문제.py
 [Algorithm_10828_stack] - 60.스택.py
