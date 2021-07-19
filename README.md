@@ -65,6 +65,7 @@
 [Algorithm_10828_stack] - 60.스택.py
 [Algorithm_9012__stack] - 61.괄호.py
 [Algorithm_18258_queue] - 62.큐 2.py
+[Algorithm__2164__impl] - 63.카드2.py
 ```
 
 > 업데이트 중
