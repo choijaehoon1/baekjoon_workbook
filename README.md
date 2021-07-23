@@ -68,6 +68,7 @@
 [Algorithm__2164__impl] - 63.카드2.py
 [Algorithm__1874_stack] - 64.스택 수열.py
 [Algorithm__1935__dict] - 65.후위 표기식2.py
+[Algorithm_10799_stack] - 66.쇠막대기.py
 ```
 
 > 업데이트 중
