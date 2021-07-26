@@ -70,6 +70,7 @@
 [Algorithm__1935__dict] - 65.후위 표기식2.py
 [Algorithm_10799_stack] - 66.쇠막대기.py
 [Algorithm_1966__queue] - 67.프린터 큐.py
+[Algorithm_2346__queue] - 68.풍선 터뜨리기.py
 ```
 
 > 업데이트 중
