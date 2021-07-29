@@ -71,8 +71,9 @@
 [Algorithm_10799_stack] - 66.쇠막대기.py
 [Algorithm_1966__queue] - 67.프린터 큐.py
 [Algorithm_2346__queue] - 68.풍선 터뜨리기.py
-[Algorhthm_2504__stack] - 69.괄호의 값.py
+[Algorithm_2504__stack] - 69.괄호의 값.py
 [Algorithm_2800___impl] - 70.괄호 제거.py
+[Algorithm_2493__stack] - 71.탑.py
 ```
 
 > 업데이트 중
