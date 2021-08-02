@@ -74,6 +74,7 @@
 [Algorithm_2504__stack] - 69.괄호의 값.py
 [Algorithm_2800___impl] - 70.괄호 제거.py
 [Algorithm_2493__stack] - 71.탑.py
+[Algorithm_1918__stack] - 72.후위 표기식.py
 ```
 
 > 업데이트 중
