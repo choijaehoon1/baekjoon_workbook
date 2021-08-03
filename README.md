@@ -75,6 +75,7 @@
 [Algorithm_2800___impl] - 70.괄호 제거.py
 [Algorithm_2493__stack] - 71.탑.py
 [Algorithm_1918__stack] - 72.후위 표기식.py
+[Algorithm_1620___dict] - 73.나는야 포켓몬 마스터 이다솜.py
 ```
 
 > 업데이트 중
