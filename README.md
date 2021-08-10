@@ -79,6 +79,7 @@
 [Algorithm_14425__impl] - 74.문자열 집합.py
 [Algorithm_11279__impl] - 75.최대 힙.py
 [Algorithm_1286___impl] - 76.절댓값 힙.py
+[Algorithm_7662___heap] - 77.이중 우선순위 큐.py
 ```
 
 > 업데이트 중
